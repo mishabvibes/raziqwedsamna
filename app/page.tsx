@@ -314,9 +314,9 @@ const WeddingInvitation: React.FC = () => {
             {/* Calendar Grid */}
             <motion.div variants={fadeInUp} className="w-full max-w-xs mx-auto mt-0">
               <div className="flex items-center justify-center gap-3 mb-4">
-                <Image src="/calender.png" alt="Calendar Icon" width={60} height={60} />
+                <Image src="/calender2.png" alt="Calendar Icon" width={60} height={60} />
                 <div className="text-left font-montserrat">
-                  <h3 className="text-2xl font-poppins font-semibold leading-none ">Dec 2025</h3>
+                  <h3 className="text-3xl font-montserrat font-medium leading-none ">Dec 2025</h3>
                   <p className="text-sm opacity-80 font-poppins">Hold the Date</p>
                 </div>
               </div>
@@ -348,7 +348,7 @@ const WeddingInvitation: React.FC = () => {
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <h2 className="text-4xl font-amonos">Nikah</h2>
                   <div className="w-15 h-15 flex items-center justify-center">
-                    <Image src="/heartcercle.png" alt="Heart Icon" width={60} height={60} />
+                    <Image src="/heartcercle2.png" alt="Heart Icon" width={60} height={60} />
                   </div>
                 </div>
                 <div className="font-montserrat">
@@ -360,7 +360,7 @@ const WeddingInvitation: React.FC = () => {
               <div className="space-y-2">
                 <div className="flex items-center justify-center gap-3 mb-2">
                   <div className="w-15 h-15 flex items-center justify-center">
-                    <Image src="/food1.png" alt="Food Icon" width={60} height={60} />
+                    <Image src="/food2.png" alt="Food Icon" width={60} height={60} />
                   </div>
                   <div className="text-left">
                     <h2 className="text-3xl font-amonos leading-none">welcome</h2>
@@ -379,7 +379,7 @@ const WeddingInvitation: React.FC = () => {
             </motion.div>
 
             <div className="flex items-center justify-center mt-0">
-              <Image src="/barakallah.png" alt="Food Icon" width={350} height={350} />
+              <Image src="/barakallah1.png" alt="Food Icon" width={400} height={400} />
             </div>
 
             <motion.p variants={fadeInUp} className="font-serif text-sm italic opacity-90 mb-8 -mt-4 px-4 leading-relaxed">
