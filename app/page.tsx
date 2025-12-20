@@ -231,7 +231,7 @@ const WeddingInvitation: React.FC = () => {
               <p className="text-sm opacity-80">@Knnamvetikavu, Ayikkarapadi</p>
             </motion.div>
 
-            <motion.a 
+            <motion.a
               variants={fadeInUp}
               href="https://maps.app.goo.gl/85wkBttVRhj1UQod9"
               target="_blank"
@@ -242,7 +242,11 @@ const WeddingInvitation: React.FC = () => {
               <span className="text-lg font-poppins tracking-wide">Location</span>
             </motion.a>
 
-            <motion.div variants={fadeInUp} className="mt-12 mb-6 space-y-6">
+            <motion.div variants={fadeInUp} className="relative w-15 h-15 mb-4">
+              <Image src="/dots.png" alt="Bismillah" fill className="object-contain" />
+            </motion.div>
+
+            <motion.div variants={fadeInUp} className="mt-0 mb-6 space-y-6">
               <div className="flex items-center justify-center gap-1 font-serif text-8xl ">
                 <span>R</span>
                 <span className="font-wasted text-6xl text-[#8ca1d9] -mt-3 -mr-2 -ml-2">&</span>
@@ -303,10 +307,14 @@ const WeddingInvitation: React.FC = () => {
               </p>
             </motion.div>
 
+            <motion.div variants={fadeInUp} className="relative w-15 h-15 mb-4">
+              <Image src="/dots.png" alt="Bismillah" fill className="object-contain" />
+            </motion.div>
+
             {/* Calendar Grid */}
-            <motion.div variants={fadeInUp} className="w-full max-w-xs mx-auto mt-12">
+            <motion.div variants={fadeInUp} className="w-full max-w-xs mx-auto mt-0">
               <div className="flex items-center justify-center gap-3 mb-4">
-                <Image src="/calender.png" alt="Calendar Icon" width={40} height={40} />
+                <Image src="/calender.png" alt="Calendar Icon" width={60} height={60} />
                 <div className="text-left font-montserrat">
                   <h3 className="text-2xl font-poppins font-semibold leading-none ">Dec 2025</h3>
                   <p className="text-sm opacity-80 font-poppins">Hold the Date</p>
@@ -338,9 +346,9 @@ const WeddingInvitation: React.FC = () => {
             <motion.div variants={fadeInUp} className="w-full space-y-10">
               <div className="space-y-2">
                 <div className="flex items-center justify-center gap-3 mb-2">
-                  <h2 className="text-4xl font-serif">Nikah</h2>
-                  <div className="w-10 h-10 flex items-center justify-center">
-                    <Image src="/heartcercle.png" alt="Heart Icon" width={40} height={40} />
+                  <h2 className="text-4xl font-amonos">Nikah</h2>
+                  <div className="w-15 h-15 flex items-center justify-center">
+                    <Image src="/heartcercle.png" alt="Heart Icon" width={60} height={60} />
                   </div>
                 </div>
                 <div className="font-montserrat">
@@ -351,12 +359,12 @@ const WeddingInvitation: React.FC = () => {
 
               <div className="space-y-2">
                 <div className="flex items-center justify-center gap-3 mb-2">
-                  <div className="w-10 h-10 flex items-center justify-center">
-                    <Image src="/food1.png" alt="Food Icon" width={42} height={42} />
+                  <div className="w-15 h-15 flex items-center justify-center">
+                    <Image src="/food1.png" alt="Food Icon" width={60} height={60} />
                   </div>
                   <div className="text-left">
-                    <h2 className="text-3xl font-serif leading-none">welcome</h2>
-                    <h2 className="text-2xl font-serif font-light leading-none">reception</h2>
+                    <h2 className="text-3xl font-amonos leading-none">welcome</h2>
+                    <h2 className="text-2xl font-amonos font-light leading-none">reception</h2>
                   </div>
                 </div>
                 <div className="font-montserrat">
@@ -366,9 +374,15 @@ const WeddingInvitation: React.FC = () => {
               </div>
             </motion.div>
 
+            <motion.div variants={fadeInUp} className="relative w-15 h-15 mb-4">
+              <Image src="/dots.png" alt="Bismillah" fill className="object-contain" />
+            </motion.div>
 
+            <div className="flex items-center justify-center mt-0">
+              <Image src="/barakallah.png" alt="Food Icon" width={350} height={350} />
+            </div>
 
-            <motion.p variants={fadeInUp} className="font-serif text-sm italic opacity-90 mt-8 px-4 leading-relaxed">
+            <motion.p variants={fadeInUp} className="font-serif text-sm italic opacity-90 mb-8 -mt-4 px-4 leading-relaxed">
               "May Allah bless you, shower His blessings upon you, and bring you together in goodness"
             </motion.p>
           </motion.div>
