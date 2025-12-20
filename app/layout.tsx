@@ -12,11 +12,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-import { Playfair_Display, Great_Vibes, Lato } from "next/font/google";
+import { Playfair_Display, Great_Vibes, Lato, Montserrat, Poppins } from "next/font/google";
 
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 const greatVibes = Great_Vibes({ weight: "400", subsets: ["latin"], variable: "--font-great-vibes" });
 const lato = Lato({ weight: ["300", "400", "700"], subsets: ["latin"], variable: "--font-lato" });
+const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat" });
+const poppins = Poppins({ weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"], variable: "--font-poppins" });
 
 export const metadata: Metadata = {
   title: "Wedding Invitation - Raziq & Amna",
@@ -34,7 +36,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${greatVibes.variable} ${lato.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${greatVibes.variable} ${lato.variable} ${montserrat.variable} ${poppins.variable} antialiased`}
       >
         {children}
       </body>

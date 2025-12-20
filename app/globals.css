@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'AmonosDisplay';
-  src: url('/amonosdisplay-regular.otf') format('opentype');
+  src: url('/Amonos display.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -132,6 +132,14 @@
 
   .font-amonos {
     font-family: 'AmonosDisplay', sans-serif;
+  }
+
+  .font-montserrat {
+    font-family: var(--font-montserrat), sans-serif;
+  }
+
+  .font-poppins {
+    font-family: var(--font-poppins), sans-serif;
   }
 
   .flower-decoration {
