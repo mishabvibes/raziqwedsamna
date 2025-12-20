@@ -193,8 +193,8 @@ const WeddingInvitation: React.FC = () => {
             </motion.div>
 
             <motion.div variants={fadeInUp} className="space-y-1">
-              <p className="font-georgia text-lg tracking-widest text-gray-300 leading-2">In the Name of Allah,</p>
-              <p className="font-georgia text-xs text-gray-400">The Most Gracious, The Most Merciful</p>
+              <p className="font-georgia text-lg tracking-widest text-white leading-2">In the Name of Allah,</p>
+              <p className="font-georgia text-xs text-white">The Most Gracious, The Most Merciful</p>
             </motion.div>
 
             {/* Names Section */}
@@ -216,7 +216,7 @@ const WeddingInvitation: React.FC = () => {
                   <span className="block text-4xl font-amonos text-[#8ca1d9] leading-5">dec</span>
                   <span className="block text-4xl font-amonos text-[#8ca1d9]">2025</span>
                 </div>
-                <div className="text-8xl font-serif font-semibold leading-none">28</div>
+                <div className="text-8xl font-serif font-semibold leading-none text-white">28</div>
                 <div className="text-left leading-tight">
                   <span className="block text-4xl font-amonos text-[#8ca1d9] leading-5">sun</span>
                   <span className="block text-4xl font-amonos text-[#8ca1d9]">11 AM</span>
