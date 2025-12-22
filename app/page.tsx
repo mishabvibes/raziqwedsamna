@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { MapPin, Bell } from 'lucide-react';
+import { MapPin, Bell, Phone } from 'lucide-react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
@@ -254,7 +254,7 @@ const WeddingInvitation: React.FC = () => {
               </div>
 
               <div className="space-y-4 ">
-                <h3 className="font-arsenica text-xl font-bold tracking-wide leading-0">
+                <h3 className="font-arsenica text-xl font-bold tracking-wide leading-tight">
                   Dear Beloved Family & Friends!
                 </h3>
                 <p className="font-arsenica text-base text-gray-200 px-4 leading-5">
@@ -370,6 +370,15 @@ const WeddingInvitation: React.FC = () => {
                 <div className="font-montserrat">
                   <p className="font-bold font-poppins">Dec 28th 11 AM</p>
                   <p className="text-sm opacity-90">White Land Convention Centre, Kannamvettikkavu</p>
+                </div>
+              </div>
+
+              <div className="space-y-2 pt-4">
+                <div className="flex items-center justify-center gap-2 text-gray-200 hover:text-white transition-colors">
+                  <Phone size={18} />
+                  <a href="tel:+918089440014" className="font-poppins text-sm tracking-wide">
+                    +91 8089440014
+                  </a>
                 </div>
               </div>
             </motion.div>
